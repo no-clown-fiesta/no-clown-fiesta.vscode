@@ -1,0 +1,21 @@
+{
+  "name": "no-clown-fiesta",
+  "displayName": "no-clown-fiesta",
+  "description": "Port from neovim; attempt at a color scheme that does not look like a clown puked up the source code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "no-clown-fiesta",
+        "uiTheme": "vs-dark",
+        "path": "./themes/no-clown-fiesta-color-theme.json"
+      }
+    ]
+  }
+}
